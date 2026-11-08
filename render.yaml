@@ -1,0 +1,32 @@
+# Render Blueprint: in Render, choose New > Blueprint and select this repository.
+# Secrets marked "sync: false" are asked for during setup (see docs/deploy_render.md).
+services:
+  - type: web
+    name: firstoffer
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: ALERT_CHAT_ID
+        sync: false
+      - key: DASHBOARD_URL
+        sync: false
+      - key: ADMIN_TOKEN
+        generateValue: true
+      # Small free database: keep tags, drop descriptions; delete closed jobs after 30 days.
+      - key: STORE_DESCRIPTIONS
+        value: "false"
+      - key: PRUNE_CLOSED_AFTER_DAYS
+        value: "30"
+      # Stay well inside the free instance's 512 MB of memory.
+      - key: MAX_CONCURRENT_SOURCES
+        value: "2"
+      - key: DETAIL_FETCHES_PER_RUN
+        value: "100"

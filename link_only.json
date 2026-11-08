@@ -1,0 +1,23 @@
+[
+  {"company": "Google", "careers_url": "https://www.google.com/about/careers/applications/jobs/results", "reason": "robots.txt disallows automated access to job results"},
+  {"company": "Apple", "careers_url": "https://jobs.apple.com/en-us/search", "reason": "No public job feed"},
+  {"company": "Meta", "careers_url": "https://www.metacareers.com/jobsearch/", "reason": "Site terms restrict automated collection"},
+  {"company": "IBM", "careers_url": "https://www.ibm.com/careers/search", "reason": "Search API doesn't return job details to outside callers"},
+  {"company": "SAP", "careers_url": "https://jobs.sap.com", "reason": "Blocks automated access (bot protection)"},
+  {"company": "Akamai Technologies", "careers_url": "https://www.akamai.com/careers", "reason": "Blocks automated access (bot protection)"},
+  {"company": "Intuit", "careers_url": "https://jobs.intuit.com", "reason": "robots.txt disallows the job search pages"},
+  {"company": "Shopify", "careers_url": "https://www.shopify.com/careers/jobs", "reason": "Job board ID not public"},
+  {"company": "Confluent", "careers_url": "https://careers.confluent.io", "reason": "Blocks automated access (bot protection)"},
+  {"company": "Tata Consultancy Services (TCS)", "careers_url": "https://www.tcs.com/careers", "fresher_url": "https://nextstep.tcs.com", "reason": "Blocks automated access (bot protection)"},
+  {"company": "Infosys", "careers_url": "https://career.infosys.com/jobs", "fresher_url": "https://www.infosys.com/careers/graduates.html", "reason": "Blocks automated access (bot protection)"},
+  {"company": "Cognizant", "careers_url": "https://careers.cognizant.com/global-en/jobs/", "fresher_url": "https://careers.cognizant.com/in-en/students-and-graduates/", "reason": "Blocks automated access (bot protection)"},
+  {"company": "Tech Mahindra", "careers_url": "https://careers.techmahindra.com/", "reason": "Job search only works in a browser"},
+  {"company": "Persistent Systems", "careers_url": "https://careers.persistent.com/", "reason": "No public job feed found"},
+  {"company": "Coforge", "careers_url": "https://careers.coforge.com/coforge/", "reason": "Job search only works in a browser"},
+  {"company": "EPAM Systems", "careers_url": "https://careers.epam.com/en/jobs", "reason": "robots.txt disallows its job API"},
+  {"company": "Mphasis", "careers_url": "https://careers.mphasis.com/home.html", "reason": "Job search only works in a browser"},
+  {"company": "Endava", "careers_url": "https://www.endava.com/careers/jobs", "reason": "Job search only works in a browser"},
+  {"company": "KPMG", "careers_url": "https://kpmg.com/xx/en/careers/job-search.html", "reason": "Separate site per country, no shared feed"},
+  {"company": "ByteDance", "careers_url": "https://joinbytedance.com", "reason": "Blocks automated access (bot protection)"},
+  {"company": "Uber", "careers_url": "https://www.uber.com/us/en/careers/list/", "reason": "No public job feed found"}
+]

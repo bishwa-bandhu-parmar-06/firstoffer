@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FirstOffer: fresher and entry-level IT jobs straight from 100 companies' official careers sites." />
+    <meta name="theme-color" content="#2456d6" />
+    <meta property="og:site_name" content="FirstOffer" />
+    <meta property="og:title" content="FirstOffer · IT jobs for freshers" />
+    <meta property="og:description" content="Fresher and entry-level IT jobs straight from company careers pages, updated every few hours." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232456d6'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EFO%3C/text%3E%3C/svg%3E" />
+    <title>FirstOffer · IT jobs for freshers</title>
+    <script>
+      // Apply a saved light/dark choice before the page paints, so it doesn't flash.
+      try {
+        var t = localStorage.getItem("firstoffer.theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# Secrets: real settings live in .env (and on Render), never in git. .env.example is the template.
+.env
+.env.*
+!.env.example
+# Local databases (jobs.db is ~440 MB, over GitHub's 100 MB file limit)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+dashboard/node_modules/
+dashboard/dist/
+.claude/settings.local.json
+*.tsbuildinfo

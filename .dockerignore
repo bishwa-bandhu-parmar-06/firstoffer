@@ -1,0 +1,11 @@
+.venv/
+.env
+jobs.db
+*.db
+__pycache__/
+.pytest_cache/
+.claude/
+tests/
+docs/
+dashboard/node_modules/
+dashboard/dist/
